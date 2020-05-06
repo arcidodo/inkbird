@@ -16,3 +16,7 @@ You will need to modify the environmental variables
 * `INKBIRD_ADDRESS` is the bluetooth address for the inkbird
 
 Then just run `docker-compose up -d`
+
+to find your bluetooth mac address:
+
+sudo hcitool lescan
